@@ -1,0 +1,13 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.back_color{
+    background-color: #083b4c;
+}
+.title{
+    text-align: center;
+    color:white;
+}
