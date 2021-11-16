@@ -4,10 +4,43 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* common */
 .back_color{
     background-color: #083b4c;
 }
 .title{
+    padding-top: 30px;
     text-align: center;
     color:white;
+    
+}
+.title_text{
+    font-size: 100px;
+}
+.my_container{
+    margin:0 auto;
+    width: 85%;
+}
+.box{
+    margin-right: 20px;
+    margin-top: 20px;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    line-height: 200px;
+}
+.box span{
+    font-size: 40px;
+}
+.normal{
+    background-color: #1389b2;
+}
+.fizz{
+    background-color: #0bd6a0;
+}
+.buzz{
+    background-color: #ffd166;
+}
+.fizzbuzz{
+    background-color: #f0466f;
 }
