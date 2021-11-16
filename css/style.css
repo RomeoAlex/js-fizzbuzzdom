@@ -28,6 +28,8 @@
     width: 200px;
     text-align: center;
     line-height: 200px;
+    /* test */
+    background-color: brown;
 }
 .box span{
     font-size: 40px;
