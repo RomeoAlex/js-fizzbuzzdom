@@ -50,7 +50,9 @@ for( i = 1; i<= 100; i++){
     const textInside = document.createElement('span');
     textInside.append(myValue);
     NewBox.append(textInside);
-    if( i % 15 === 0 ){
+    // aggiungo correzione del professore con and
+    // if( i % 15 === 0 ){
+    if (( i % 3 === 0  ) && ( i % 5 === 0 )) {   
         NewBox.classList.remove('normal');
         NewBox.classList.add('fizzbuzz');
         textInside.innerHTML = 'fizzbuzz';
